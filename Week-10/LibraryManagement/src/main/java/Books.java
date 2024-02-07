@@ -4,7 +4,7 @@ import java.util.List;
 
 @Entity
 @Table(name = "books")
-public class Book {
+public class Books {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     @Column(name = "book_id", columnDefinition = "serial")
@@ -38,7 +38,8 @@ public class Book {
     )
     private List<Category> categoryList;
 
-    public Book(){
+    public Books(){
+        this.name = this.getName();
     }
     public long getId() {
         return id;
