@@ -20,7 +20,7 @@ public class Publisher {
     private String address;
 
     @OneToMany(mappedBy = "publisher")
-    private List<Book> bookList;
+    private List<Books> booksList;
 
     public Publisher(){
     }
@@ -57,12 +57,12 @@ public class Publisher {
         this.address = address;
     }
 
-    public List<Book> getBookList() {
-        return bookList;
+    public List<Books> getBookList() {
+        return booksList;
     }
 
-    public void setBookList(List<Book> bookList) {
-        this.bookList = bookList;
+    public void setBookList(List<Books> booksList) {
+        this.booksList = booksList;
     }
 
     @Override

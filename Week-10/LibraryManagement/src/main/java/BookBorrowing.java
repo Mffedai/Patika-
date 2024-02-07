@@ -22,7 +22,7 @@ public class BookBorrowing {
 
     @ManyToOne
     @JoinColumn(name = "borrow_book_id", referencedColumnName = "book_id")
-    private Book book;
+    private Books books;
 
     public long getId() {
         return id;
@@ -56,12 +56,12 @@ public class BookBorrowing {
         this.returnDate = returnDate;
     }
 
-    public Book getBook() {
-        return book;
+    public Books getBook() {
+        return books;
     }
 
-    public void setBook(Book book) {
-        this.book = book;
+    public void setBook(Books books) {
+        this.books = books;
     }
 
     @Override

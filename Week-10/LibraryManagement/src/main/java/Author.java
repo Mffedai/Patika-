@@ -22,7 +22,7 @@ public class Author {
     private String country;
 
     @OneToMany(mappedBy = "author")
-    private List<Book> bookList;
+    private List<Books> booksList;
 
     public Author(){
     }
@@ -59,12 +59,12 @@ public class Author {
         this.country = country;
     }
 
-    public List<Book> getBookList() {
-        return bookList;
+    public List<Books> getBookList() {
+        return booksList;
     }
 
-    public void setBookList(List<Book> bookList) {
-        this.bookList = bookList;
+    public void setBookList(List<Books> booksList) {
+        this.booksList = booksList;
     }
 
     @Override

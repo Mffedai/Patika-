@@ -1,6 +1,5 @@
 import jakarta.persistence.*;
 
-import java.awt.*;
 import java.util.List;
 
 @Entity
@@ -18,8 +17,49 @@ public class Category {
     private String definiton;
 
     @ManyToMany(mappedBy = "categoryList")
-    private List<Book> bookList;
+    private List<Books> booksList;
 
     public Category(){
+    }
+
+    public long getId() {
+        return id;
+    }
+
+    public void setId(long id) {
+        this.id = id;
+    }
+
+    public String getName() {
+        return name;
+    }
+
+    public void setName(String name) {
+        this.name = name;
+    }
+
+    public String getDefiniton() {
+        return definiton;
+    }
+
+    public void setDefiniton(String definiton) {
+        this.definiton = definiton;
+    }
+
+    public List<Books> getBooksList() {
+        return booksList;
+    }
+
+    public void setBooksList(List<Books> booksList) {
+        this.booksList = booksList;
+    }
+
+    @Override
+    public String toString() {
+        return "Category{" +
+                "id=" + id +
+                ", name='" + name + '\'' +
+                ", definiton='" + definiton + '\'' +
+                '}';
     }
 }
