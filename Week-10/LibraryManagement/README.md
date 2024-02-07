@@ -59,22 +59,22 @@ mvn spring-boot:run
 Library Management System Database Diagram
 ![shema](src/images/shema.png)
 Below are screenshots of the database tables created when the project is run.
-Author:
+#### Author:
 
 ![author](src/images/author.png)
-Book:
+#### Book:
 
 ![book](src/images/book.png)
-Book to Category:
+#### Book to Category:
 
 ![book2cat](src/images/book2cat.png)
-Borrow:
+#### Borrow:
 
 ![borrow](src/images/borrow.png)
-Category:
+#### Category:
 
 ![category](src/images/category.png)
-Publisher:
+#### Publisher:
 
 ![publisher](src/images/publisher.png)
 
