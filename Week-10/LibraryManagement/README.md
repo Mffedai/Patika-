@@ -60,16 +60,22 @@ Library Management System Database Diagram
 ![shema](src/images/shema.png)
 Below are screenshots of the database tables created when the project is run.
 Author:
+
 ![author](src/images/author.png)
 Book:
+
 ![book](src/images/book.png)
 Book to Category:
+
 ![book2cat](src/images/book2cat.png)
 Borrow:
+
 ![borrow](src/images/borrow.png)
 Category:
+
 ![category](src/images/category.png)
 Publisher:
+
 ![publisher](src/images/publisher.png)
 
 
