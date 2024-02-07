@@ -57,12 +57,12 @@ mvn spring-boot:run
 
 Below are screenshots of the database tables created when the project is run.
 
-![shema](Week-10/LibraryManagement/src/images/shema.png)
+![shema](src/images/shema.png)
 ![author](src/images/author.png)
-![book](Week-10/LibraryManagement/src/images/book.png)
-![book2cat](Week-10/LibraryManagement/src/images/book2cat.png)
-![borrow](Week-10/LibraryManagement/src/images/borrow.png)
-![category](Week-10/LibraryManagement/src/images/category.png)
-![publisher](Week-10/LibraryManagement/src/images/publisher.png)
+![book](src/images/book.png)
+![book2cat](src/images/book2cat.png)
+![borrow](src/images/borrow.png)
+![category](src/images/category.png)
+![publisher](src/images/publisher.png)
 
 
